@@ -1,0 +1,114 @@
+{
+    "labels": [
+        {
+            "id": 1,
+            "name": "JumpStop Records",
+            "signedArtists": []
+        },
+        {
+            "id": 2,
+            "name": "Chatten Records",
+            "signedArtists": []
+        },
+        {
+            "id":3,
+            "name": "Polar Records",
+            "signedArtists": []
+        }
+    ],
+
+    "artists": [
+        {
+            "id": 1,
+            "name": "Bruce Atikins",
+            "age": 23,
+            "genresId": 3
+        },
+        {
+            "id": 2,
+            "name": "Jensen Brown",
+            "age": 20,
+            "genresId": 5
+        },
+        {
+            "id": 3,
+            "name": "Dre Funkz",
+            "age": 25,
+            "genresId": 1
+        },
+        {
+            "id": 4,
+            "name": "Dusta Grimes",
+            "age": 21,
+            "genresId": 2
+        },
+        {
+            "id": 5,
+            "name": "Bartholomew Danielson",
+            "age": 23,
+            "genresId": 4
+        },
+        {
+            "id": 6,
+            "name": "Avilee Dallas",
+            "age": 19,
+            "genresId": 3
+        },
+        {
+            "id": 7,
+            "name": "Austin Kinkaid",
+            "age": 22,
+            "genresId": 5
+        },
+        {
+            "id": 8,
+            "name": "Loyonce Branis",
+            "age": 27,
+            "genresId": 2
+        }
+    ],
+    "genres": [
+        {
+            "id": 1,
+            "name": "funk"
+        },
+        {
+            "id": 2,
+            "name": "rap"
+        },
+        {
+            "id": 3,
+            "name": "country"
+        },
+        {
+            "id": 4,
+            "name": "bluegrass"
+        },
+        {
+            "id": 5,
+            "name": "pop"
+        }
+    ],
+    "label_genres": [
+        {
+            "labelsId": 1,
+            "genresId": 1
+        },
+        {
+            "labelsId": 1,
+            "genresId": 2
+        },
+        {
+            "labelsId": 2,
+            "genresId": 3
+        },
+        {
+            "labelsId": 2,
+            "genresId": 4
+        },
+        {
+            "labelsId": 3,
+            "genresId": 5
+        }
+    ]
+}
