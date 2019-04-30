@@ -1,3 +1,7 @@
+body {
+    width: 1200px;
+}
+
 #artistContainer {
     display: flex;
     flex-direction: row;
@@ -12,7 +16,7 @@
 .artists {
     margin: 20px 20px;
     border: 3px solid black;
-    border-radius: 2px;
+    border-radius: 2%;
     height: auto;
     width: 350px;
     padding: 2.5%;
@@ -28,4 +32,33 @@ button {
     height: 80px;
     width: 80px;
     border: black 2px solid;
+    border-radius: 50%;
+}
+
+#newsContainer {
+    position: fixed;
+    margin: auto;
+    height: 650px;
+    width: 650px;
+    background-color: rgba(211, 211, 211, 0.97);
+    top: 200px;
+    left: 25%;
+    border: 2px solid black;
+    border-radius: 2%;
+    box-shadow: 0 22px 32px rgba(0,0,0,0.25), 0 14px 14px rgba(0,0,0,0.22);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button:focus {
+    outline: 0;
 }
